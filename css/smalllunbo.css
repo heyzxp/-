@@ -1,0 +1,124 @@
+/* 轮播图样式 */
+.small-slider {
+  height: 238px;
+  width: 356px;
+  position: relative;
+}
+
+.small-slider li {
+  position: absolute;
+  display: none;
+}
+
+.small-slider li:first-child {
+  display: block;
+}
+
+.small-slider:hover .arrow {
+  display: block;
+}
+
+.small-slider .arrow-left,
+.small-slider .arrow-right {
+  font-family: "SimSun", "宋体";
+  width: 60px;
+  height: 238px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  line-height: 238px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.small-slider .arrow-left:hover,
+.small-slider .arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.small-slider .arrow-left {
+  left: 0;
+}
+
+.small-slider .arrow-right {
+  right: 0;
+}
+
+/* 一组小点按钮的样式 */
+.small-slider .control {
+  position: absolute;
+  bottom: 20px;
+  left: 55%;
+  margin-left: -82px;
+}
+
+.small-slider .control a {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.small-slider a+a {
+  margin-left: 10px;
+}
+
+.small-slider .control a.active {
+  background: rgb(175, 174, 174);
+}
+
+.s-lunbo>p {
+  color: #a61d55;
+}
+
+.s-lunbo>p>span {
+  height: 16px;
+  width: 37px;
+  border-radius: 4px;
+  background: #a61d55;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+}
+
+.s-lunbo h2 {
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.s-lunbo {
+  display: inline-block;
+  height: 330px;
+  width: 356px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.s-lunbo>p:last-child {
+  color: #008489
+}
+
+.s-lunbo>i {
+  position: absolute;
+  top: 9px;
+  right: 18px;
+  font-size: 27px;
+}
+
+.yaoqing {
+  height: 306px;
+  line-height: 306px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 50px;
+}
+
+.yaoqing img {
+  margin-left: 400px;
+}

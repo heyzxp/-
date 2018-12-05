@@ -1,0 +1,97 @@
+.one{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.one_box span{
+    margin-left: 28px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.two_box{
+    margin-left: 28px;
+    margin-top: 67px;
+    width: 1839px;
+    height: 186px;
+}
+.two_boxspan{
+    width: 165px;
+    margin-left: 162px;
+}
+.two_boxspan span{
+    font-size:40px;
+    font-weight: 700; 
+}
+.two_bxo2{
+    width: 737px;
+    margin-left: 470px;
+}
+.two_box2Div{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.two_box2Div2{
+    margin-bottom: 33px;
+}
+.two_box2Div2 span{
+    line-height: 27px;
+    font-size: 17px;
+}
+.two_box2Div3 span{
+    color: #a61d7b;
+    font-weight: 700;
+    font-size: 17px;
+}
+.three{
+    margin-left: 28px;
+    margin-top: 87px;
+    width: 1839px;
+    height: 661px;
+}
+.three_boxleft{
+    margin-left: 164px;
+    width: 160px;
+}
+.three_boxleft span{
+    font-size: 40px;
+    font-weight: 700;
+}
+.three_boxright{
+    margin-left: 470px;
+    width: 750px;
+}
+.three_boxrightBox span ,
+.three_boxrightBox3 span,
+.three_boxrightBox5 span
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.three_boxrightBox2{
+    margin-top: 25px;
+}
+.three_boxrightBox2 li{
+    font-size: 15px;
+    line-height: 25px;
+}
+.three_boxrightBox3{
+    margin-top:43px;
+}
+.three_boxrightBox4{
+    margin-top: 28px;
+}
+.three_boxrightBox4 span{
+    line-height: 25px;
+    font-size: 15px;
+}
+.three_boxrightBox5{
+    margin-top: 40px;
+}
+.three_boxrightBox6{
+    margin-top: 25px;
+}
+.three_boxrightBox6 span{
+    font-size: 15px;
+}

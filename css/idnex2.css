@@ -1,0 +1,261 @@
+/* 分享按钮 */
+.sharebutton{
+    display: none;
+}
+.sharebuttonbox1{
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1;
+}
+.sharebuttonbox2 img{
+    position: fixed;
+    left: 777px;
+    top: 50px;
+    z-index: 2;
+}
+.sharebuttonbox3 input {
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 50%;
+    position: fixed;
+    left: 792px;
+    top: 69px;
+    z-index: 3;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+.one{
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 30px;
+}
+.one_box span{
+    font-size:45px;
+    font-weight: 700;
+}
+.one_box2{
+    width: 142px;
+    height: 34px;
+    border-radius: 5%;
+    border:1px solid #484848;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-top: 13px;
+}
+.one_box2 img{
+    margin-top: 8px;
+    margin-left: 14px;
+    vertical-align: bottom;
+}
+.one_box2 span{
+    font-size: 14px;
+    color: #484848;
+}
+.one_box3{
+    margin-right: 50px;
+    margin-top: 22px;
+}
+.one_box3 img{
+    margin-left: 20px;
+}
+.two,
+.three,
+.four,
+.five,
+.six
+{
+    margin: 0 auto;
+    margin-top: 71px;
+}
+.two_boxp p ,
+.three_boxp p,
+.four_box p:nth-child(1),
+.five_box p:nth-child(1),
+.six_box p
+{
+    font-weight: 700;
+    font-size: 40px;
+}
+.two_boximg{
+    margin-top: 38px;
+    width: 334px;
+    height: 510px;
+    overflow: hidden;
+}
+.two_boximg2{
+    width: 683px;
+    height: 510px;
+    margin-left: 14px;
+    margin-top: 38px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.two_boximg3{
+    width: 334px;
+    height: 510px;
+    overflow: hidden;
+    margin-top: -82px;
+}
+.two_boximg4{
+    width: 683px;
+    height: 510px;
+    margin-left: 14px;
+    overflow: hidden;
+}
+.two_boximg4 img {
+    width: 683px;
+    height: 427px;
+}
+.three_box2{
+    margin-top: 38px;
+}
+.three_box2  img{
+    width: 684px;
+    height: 450px;
+}
+.three_box3{
+    height: 451px;
+    width: 335px;
+    margin-top: 38px;
+    margin-left: 12px;
+    position: relative;
+}
+.three_box3top
+{
+    height: 220px;
+    widows: 335px;
+    overflow: hidden;
+}
+.three_box3but{
+    margin-top: 12px;
+    height: 220px;
+    widows: 335px;
+    overflow: hidden;
+}
+.four_box p:nth-child(2),
+.five_box p:nth-child(2)
+{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #767676;
+}
+.four_box2{
+    margin-top: 34px;
+    height: 684px;
+}
+.four_box3{
+    width: 335px;
+    height: 510px;
+    margin-top: 11px;
+    overflow: hidden;
+}
+.four_box3 img{
+    height: 510px;
+}
+.four_box4{
+    width: 683px;
+    height: 509px;
+    overflow: hidden;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.four_box4 img{
+     width: 683px;
+    height: 509px;
+} 
+.five_box2
+{
+    width: 510px;
+    height: 310px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.five_box3{
+    width: 510px;
+    height: 310px;
+    overflow: hidden;
+    margin-left: 11px;
+    margin-top: 35px;
+}
+.six_box2{
+    margin-top: 38px;
+    margin-bottom: 200px;
+}
+.six_box2 img{
+    height: 683px;
+}
+
+
+
+/* 底部绝对定位 */
+.foot{
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid #f5f5f5;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+}
+
+.foot_imgbox{
+    margin-top: 19px;
+    margin-left: 29px;
+}
+.foot_imgbox2{
+    margin-top: 19px;
+    margin-left: 27px;
+}
+.foot_imgbox22 span{
+    font-size: 14px;
+}
+.foot_imgbox22{
+    margin-top: 3px;
+}
+.foot_imgbox22 img{
+    vertical-align: middle;
+}
+.font_rightbox{
+    border-left: 1px solid slategray;
+    width: 137px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 22px;
+}
+.font_rightbox span:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+}
+.font_rightbox span:nth-child(2){
+    font-size: 9px;
+}
+.foot_rightbox2{
+    width: 174px;
+    height: 46px;
+    background-color: #a61d55;
+    border-radius: 5%;
+    margin-top: 19px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+}
+.foot_rightbox2 span{
+    color: #ebebeb;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
